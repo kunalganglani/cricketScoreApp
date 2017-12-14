@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cricket Score Board</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <h2>Cricket Score board</h2>
+  <h3> India vs Pakistan</h3>
+
+  <template id="playerScore">
+    <tr>
+      <td class="playerName"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><button class="accordian" type="button">Show More</button></td>
+    </tr>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  </template>
+
+  <table id="scoreTable">
+      <thead>
+          <tr>
+            <td>Player Name</td>
+            <td>Out Way</td>
+            <td>Number of Balls Players</td>
+            <td>Runs Scored</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+  </table>
+
+  <!-- Transpiled to ES6 via Babel. Packaged up via Webpack. -->
+  <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+
+</html>
